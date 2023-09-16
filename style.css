@@ -235,7 +235,7 @@ gap: 1rem;
   font-weight: 900;
 }
 .box p{
-  font-size: .7rem;
+  font-size: 1rem;
   /* width: 80%; */
   font-family: aller-light;
 }
@@ -245,8 +245,8 @@ gap: 1rem;
  
 }
 .box .icon img{
-  height: 1.1rem;
-  width: 1.1rem;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 .blackextra{
   height: 20rem;
@@ -461,6 +461,17 @@ padding: 1rem;
 .footer h3{
   font-size: 1rem;
 }
+.blacksec button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  border: none;
+}
+button{
+  border: none;
+  outline: none;
+}
 @media only screen and (width:1024px) {
   .section:nth-child(1) > img:nth-child(2){
     height: 100%;
@@ -488,10 +499,14 @@ padding: 1rem;
     height: 50rem;
   }
   .section:nth-child(2){
-    height: 50rem;
+    height: 60rem;
+  }
+  .section:nth-child(3)>h1{
+    width: 100%;
+    text-align: center;
   }
   .section:nth-child(4){
-    height: 50rem;
+    height: fit-content;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -522,6 +537,9 @@ padding: 1rem;
     width: 100%;
     right: 0%;
   }
+  .boxcontainer{
+    width: 100%;
+  }
   .footer h3{
     font-size: .5rem;
   }
@@ -533,15 +551,23 @@ padding: 1rem;
 
   }
   .whitesec h1{
-    font-size: 2rem;
-    margin-top: 4rem;
+    font-size: 3.3rem;
+    margin-top: 5rem;
   }
   .whitesec h3{
-    font-size: .7rem;
+    font-size: 1rem;
+    margin-top: 1rem;
   }
   .whitesec a{
-    font-size: .7rem;
+    font-size: 1rem;
   }
+  .whitesec button{
+    width: 100%;
+  }
+  .whitesec .line{
+    width: 100%;
+  }
+
   .blacksec{
     width: 100%;
     height: 50%;
@@ -562,19 +588,21 @@ padding: 1rem;
     width: 100% ;
   }
   .box .img {
-    height: 15rem;}
+    height: 25rem;}
     .blackextra{
       height: 4rem;
     }
     #car{
       height: 10rem;
       top: -5rem;
+width: 100%;
+left: 50%;
     }
   #nav {
     flex-direction: row;
     padding: 0 3vw;
     overflow: hidden;
-    height: 3rem;
+    height: 5rem;
     width: 100%;
   }
   .first {
@@ -635,7 +663,7 @@ padding: 1rem;
   }
   .section:nth-child(1) > .black #cir {
     position: absolute;
-    bottom: 5%;
+    bottom: 15%;
     right: 5%;
   }
   .section:nth-child(1) > .black h1 {
@@ -656,7 +684,7 @@ padding: 1rem;
     /* background-color: red; */
   }
   .text p {
-    font-size: 0.7rem;
+    font-size:1rem;
   }
   .text h1 {
     font-size: 2rem;
@@ -687,10 +715,10 @@ padding: 1rem;
     height: 64rem;
   }
   .section:nth-child(2){
-    height: 64rem;
+    height: fit-content;
   }
   .section:nth-child(4){
-    height: 64rem;
+    height: fit-content;
   }
   .section:nth-child(5){
     height: 60rem;
@@ -726,8 +754,8 @@ padding: 1rem;
       font-size: 3rem;
     }
     .text p{
-      font-size: 1rem;
-      width: 80%;
+      font-size: 1.5rem;
+      width: 85%;
       text-align: center;
     }
     .section:nth-child(1) > .black h1 {
@@ -735,6 +763,30 @@ padding: 1rem;
       font-size: 4rem;
       width: 80%;
      } 
+     .boxcontainer {
+      width: 70%;
+     }
+     .blacksec>h2{
+      font-size: 2rem;
+     }
+     .section:nth-child(3)>h1{
+      font-size: 6.5rem;
+     }
+     .whitesec h3{
+      font-size: 1.5rem;
+     }
+     .whitesec a{
+      font-size: 1.2rem;
+     }
+     button h2{
+      font-size: 1.5rem;
+     }
+     button{
+      padding: 1rem 2rem;
+     }
+     .whitesec h1 {
+      font-size: 4.5rem;
+     }
 }
 
 @media only screen and (width: 820px){
@@ -743,6 +795,9 @@ padding: 1rem;
    font-size: 4rem;
    width: 80%;
   } 
+  .boxcontainer {
+    width: 70%;
+   }
   .section:nth-child(1){
     height: 74rem;
   }
@@ -752,9 +807,7 @@ padding: 1rem;
   .section:nth-child(3){
     min-height: 74rem;
   }
-  .section:nth-child(4){
-    height: 74rem;
-  }
+  
   .section:nth-child(5){
     height: 74rem;
     border-top: 1px solid black;

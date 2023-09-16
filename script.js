@@ -1,4 +1,4 @@
-function loco (){
+function locomotive (){
     gsap.registerPlugin(ScrollTrigger);
 
     // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
@@ -37,8 +37,10 @@ function loco (){
   
     // after everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
     ScrollTrigger.refresh();
-    document.querySelector("#desk").addEventListener("click",function(){
-      locoScroll.scrollTo('#main')
+   
+
+    document.querySelector("#cir").addEventListener("click",function(){
+      locoScroll.scrollTo('#page2')
     })
 }
-loco()
+locomotive()
