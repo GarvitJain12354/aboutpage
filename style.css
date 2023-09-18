@@ -411,6 +411,9 @@ button h2{
   position: relative;
   z-index: 999;
 transition: ease-in-out .3s;
+margin-bottom: 0rem;
+height: 100%;
+width: 100%;
 
 }
  button:hover{
@@ -499,7 +502,7 @@ button{
     height: 50rem;
   }
   .section:nth-child(2){
-    height: 60rem;
+    min-height: 60rem;
   }
   .section:nth-child(3)>h1{
     width: 100%;
@@ -529,6 +532,7 @@ button{
     font-size: 2rem;
     width: 50%;
     margin-top: -4rem;
+    text-align: center;
   }
   .footerbox p{
     font-size: .8rem;
@@ -688,6 +692,7 @@ left: 50%;
   }
   .text h1 {
     font-size: 2rem;
+    margin-top: 5rem;
   }
 }
 
