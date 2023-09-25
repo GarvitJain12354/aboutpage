@@ -637,7 +637,7 @@ left: 50%;
     }
   #nav {
     flex-direction: row;
-    padding: 0 3vw;
+    padding: 0 2rem;
     overflow: hidden;
     height: 5rem;
     width: 100%;
